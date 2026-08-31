@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Links — Your Name</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;600&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a class="nav-name" href="index.html">Your Name</a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="cv.html">CV</a>
+      <a href="projects.html">Projects</a>
+      <a href="blog.html">Writing</a>
+      <a href="links.html" aria-current="page">Links</a>
+    </div>
+  </div>
+</nav>
+
+<main>
+  <h1>Links</h1>
+  <p class="section-intro">Where else to find me.</p>
+
+  <div class="link-list">
+    <a href="mailto:you@example.com">
+      Email
+      <span class="mono">you@example.com</span>
+    </a>
+    <a href="https://github.com/yourname" target="_blank" rel="noopener">
+      GitHub
+      <span class="mono">github.com/yourname</span>
+    </a>
+    <a href="https://linkedin.com/in/yourname" target="_blank" rel="noopener">
+      LinkedIn
+      <span class="mono">linkedin.com/in/yourname</span>
+    </a>
+    <a href="https://twitter.com/yourname" target="_blank" rel="noopener">
+      Twitter / X
+      <span class="mono">@yourname</span>
+    </a>
+  </div>
+</main>
+
+<footer>
+  <div class="footer-inner">
+    © <span id="year"></span> Your Name
+  </div>
+</footer>
+
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Your Name</title>
+<meta name="description" content="Your Name — CV, projects, and writing.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;600&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a class="nav-name" href="index.html">Your Name</a>
+    <div class="nav-links">
+      <a href="index.html" aria-current="page">Home</a>
+      <a href="cv.html">CV</a>
+      <a href="projects.html">Projects</a>
+      <a href="blog.html">Writing</a>
+      <a href="links.html">Links</a>
+    </div>
+  </div>
+</nav>
+
+<main>
+  <section class="hero">
+    <h1>Your Name</h1>
+    <p class="lede">A one-line description of what you do — for example, a software engineer working on distributed systems, or a designer interested in tools for thinking.</p>
+    <p class="lede">Based in [City]. Currently [what you're doing right now — role, study, or focus].</p>
+  </section>
+
+  <div class="teasers">
+    <a class="teaser" href="cv.html">
+      <h3>CV</h3>
+      <p>Experience, education, and skills — the short version.</p>
+    </a>
+    <a class="teaser" href="projects.html">
+      <h3>Projects</h3>
+      <p>Things I've built, on my own or with others.</p>
+    </a>
+    <a class="teaser" href="blog.html">
+      <h3>Writing</h3>
+      <p>Notes and longer thoughts, added when there's something worth saying.</p>
+    </a>
+  </div>
+</main>
+
+<footer>
+  <div class="footer-inner">
+    © <span id="year"></span> Your Name
+  </div>
+</footer>
+
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

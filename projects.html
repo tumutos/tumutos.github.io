@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projects — Your Name</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;600&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a class="nav-name" href="index.html">Your Name</a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="cv.html">CV</a>
+      <a href="projects.html" aria-current="page">Projects</a>
+      <a href="blog.html">Writing</a>
+      <a href="links.html">Links</a>
+    </div>
+  </div>
+</nav>
+
+<main>
+  <h1>Projects</h1>
+  <p class="section-intro">A selection of things I've built. Replace these with your own — keep the description to what it does and why it exists, not a feature list.</p>
+
+  <div class="entry-list">
+
+    <div class="entry">
+      <div class="entry-head">
+        <span class="entry-title"><a href="#">Project One</a></span>
+        <span class="mono">2026</span>
+      </div>
+      <div class="entry-body">
+        <p>A short description of the problem this solves and how. One or two sentences is plenty — link out for anyone who wants more.</p>
+      </div>
+      <div class="tag-row">
+        <span>Python</span>
+        <span>PostgreSQL</span>
+      </div>
+    </div>
+
+    <div class="entry">
+      <div class="entry-head">
+        <span class="entry-title"><a href="#">Project Two</a></span>
+        <span class="mono">2025</span>
+      </div>
+      <div class="entry-body">
+        <p>Same pattern — what it is, who it's for, why you built it.</p>
+      </div>
+      <div class="tag-row">
+        <span>React</span>
+        <span>Node</span>
+      </div>
+    </div>
+
+    <div class="entry">
+      <div class="entry-head">
+        <span class="entry-title"><a href="#">Project Three</a></span>
+        <span class="mono">2024</span>
+      </div>
+      <div class="entry-body">
+        <p>A smaller side project or experiment. It's fine for this one to be more playful.</p>
+      </div>
+      <div class="tag-row">
+        <span>Side project</span>
+      </div>
+    </div>
+
+  </div>
+</main>
+
+<footer>
+  <div class="footer-inner">
+    © <span id="year"></span> Your Name
+  </div>
+</footer>
+
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

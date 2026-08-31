@@ -1,0 +1,18 @@
+[
+  {
+    "slug": "starting-this-site",
+    "title": "Starting this site",
+    "date": "2026-08-20",
+    "tags": ["meta"],
+    "excerpt": "Why I finally put a personal site together, and what I plan to use it for.",
+    "content": "<p>I've been meaning to put a proper personal site together for a while. This is the first real entry.</p><p>The plan is simple: keep a CV and project list somewhere I fully control, and use this space for shorter, less polished writing than I'd post anywhere else.</p>"
+  },
+  {
+    "slug": "a-second-post",
+    "title": "A second post, for format",
+    "date": "2026-08-10",
+    "tags": ["meta", "notes"],
+    "excerpt": "A short second entry just to check the list and tag filtering behave correctly.",
+    "content": "<p>This entry exists mostly to check that two posts sort correctly and that tag filtering works with more than one tag in common.</p><p>Delete this once you have real posts.</p>"
+  }
+]

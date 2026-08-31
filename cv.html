@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CV — Your Name</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;600&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a class="nav-name" href="index.html">Your Name</a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="cv.html" aria-current="page">CV</a>
+      <a href="projects.html">Projects</a>
+      <a href="blog.html">Writing</a>
+      <a href="links.html">Links</a>
+    </div>
+  </div>
+</nav>
+
+<main>
+  <h1>CV</h1>
+  <p class="section-intro">A summary of where I've worked and studied. <a href="#">Download as PDF →</a></p>
+
+  <div class="cv-group">
+    <h2>Experience</h2>
+    <div class="entry-list">
+
+      <div class="entry">
+        <div class="entry-head">
+          <span class="entry-title">Job Title, Company Name</span>
+          <span class="mono">2024 — Present</span>
+        </div>
+        <div class="entry-body">
+          <p>One or two sentences on what you actually did and what changed because of it. Prefer concrete outcomes over responsibilities.</p>
+        </div>
+      </div>
+
+      <div class="entry">
+        <div class="entry-head">
+          <span class="entry-title">Previous Title, Previous Company</span>
+          <span class="mono">2022 — 2024</span>
+        </div>
+        <div class="entry-body">
+          <p>Same pattern: what you owned, and the result. Keep it to a couple of lines per role.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="cv-group">
+    <h2>Education</h2>
+    <div class="entry-list">
+
+      <div class="entry">
+        <div class="entry-head">
+          <span class="entry-title">Degree, Institution</span>
+          <span class="mono">2018 — 2022</span>
+        </div>
+        <div class="entry-body">
+          <p>Field of study, and a notable thesis, project, or honor if relevant.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="cv-group">
+    <h2>Skills</h2>
+    <div class="entry-list">
+      <div class="entry">
+        <div class="entry-head">
+          <span class="entry-title">Languages &amp; tools</span>
+        </div>
+        <div class="entry-body">
+          <p>Python, TypeScript, SQL, whatever's actually relevant — grouped by how you'd want an employer to skim them.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<footer>
+  <div class="footer-inner">
+    © <span id="year"></span> Your Name
+  </div>
+</footer>
+
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
