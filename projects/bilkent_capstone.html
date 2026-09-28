@@ -3,10 +3,67 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Projects — Umut Cansu</title>
+<title>Project Title — Umut Cansu</title>
+<meta name="description" content="Project details by Umut Cansu.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;600&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+<nav class="nav">
+	<div class="nav-inner">
+		<a class="nav-name" href="../index.html">Umut Cansu</a>
+		<div class="nav-links">
+			<a href="../index.html">Home</a>
+			<a href="../cv.html">CV</a>
+			<a href="../projects.html" aria-current="page">Projects</a>
+			<a href="../blog.html">Writing</a>
+			<a href="../links.html">Links</a>
+		</div>
+	</div>
+</nav>
+
+<main>
+	<article>
+		<header>
+			<p><a href="../projects.html">&larr; All projects</a></p>
+			<h1>Project Title</h1>
+			<p class="mono">YEAR - ROLE - ORGANIZATION</p>
+			<p class="section-intro">Short project summary.</p>
+		</header>
+
+		<section>
+			<h2>Overview</h2>
+			<p>[Describe the project, its goal, and the problem it addresses.]</p>
+		</section>
+
+		<section>
+			<h2>Approach</h2>
+			<p>[Explain your approach and your contributions.]</p>
+		</section>
+
+		<section>
+			<h2>Results</h2>
+			<p>[Describe the outcome, what you learned, or what you would improve.]</p>
+		</section>
+
+		<section>
+			<h2>Technologies</h2>
+			<div class="tag-row">
+				<span>[Technology]</span>
+				<span>[Technology]</span>
+			</div>
+		</section>
+	</article>
+</main>
+
+<footer>
+	<div class="footer-inner">
+		&copy; <span id="year"></span> Umut Cansu
+	</div>
+</footer>
+
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
