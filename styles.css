@@ -340,12 +340,82 @@ footer {
 }
 
 /* ============================================
+   Project detail
+   ============================================ */
+.project-header {
+  padding-bottom: 2.4rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.project-detail .back-link {
+  display: inline-block;
+  margin-bottom: 2.2rem;
+  font-size: 0.92rem;
+}
+
+.project-kicker {
+  color: var(--accent);
+  margin-bottom: 0.6rem;
+}
+
+.project-header h1 {
+  margin-bottom: 0.55rem;
+}
+
+.project-summary {
+  max-width: 54ch;
+  color: var(--ink-soft);
+  font-size: 1.12rem;
+  margin-bottom: 1.6rem;
+}
+
+.project-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem 1.8rem;
+}
+
+.project-meta p {
+  display: grid;
+  gap: 0.15rem;
+  margin: 0;
+  color: var(--ink-soft);
+  font-size: 0.92rem;
+}
+
+.project-meta .mono {
+  font-size: 0.72rem;
+}
+
+.project-section {
+  display: grid;
+  grid-template-columns: 140px minmax(0, 1fr);
+  gap: 24px;
+  padding: 1.6rem 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.project-section h2 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.project-section-body {
+  color: var(--ink-soft);
+}
+
+.project-section-body p:last-child {
+  margin-bottom: 0;
+}
+
+/* ============================================
    Responsive
    ============================================ */
 @media (max-width: 520px) {
   body { font-size: 17px; }
   .nav-inner { padding-top: 18px; padding-bottom: 18px; }
   .entry-head { flex-direction: column; align-items: flex-start; }
+  .project-section { grid-template-columns: 1fr; gap: 0.5rem; }
 }
 
 @media (prefers-reduced-motion: reduce) {
